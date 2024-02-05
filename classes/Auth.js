@@ -11,7 +11,10 @@ class Auth {
   }
 
   login(email) {
-    return this.customers.find((el) => el.email === email);
+    const found = this.customers.find((el) => el.email === email);
+    if (!found) {
+      return null;
+    } else return found;
   }
 }
 
