@@ -1,5 +1,4 @@
 // Import Classes Here
-const Auth = require("./classes/Auth");
 
 // DO NOT EDIT BELOW THIS LINE
 try {
